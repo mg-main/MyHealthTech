@@ -1,0 +1,43 @@
+{
+  "FirstName":"User",
+  "LastName":"1",
+  "Password":"password",
+  "Type":"0",
+  "UserName":"user1",
+  "CurrentMedication":[
+    {
+      "Name":"Paracetamol",
+      "Status":1
+    },{
+      "Name":"Ibuprofen",
+      "Status":2
+    },{
+      "Name":"Medical Solution 1",
+      "Status":3
+    }
+  ],
+  "PendingMedication":[
+    {
+      "Name":"Paracetamol",
+      "Status":3
+    },{
+      "Name":"Ibuprofen",
+      "Status":3
+    },{
+      "Name":"Medical Solution 2",
+      "Status":3
+    }
+  ],
+  "ConfirmedMedication":[
+    {
+      "Name":"Paracetamol",
+      "Status":0
+    },{
+      "Name":"Ibuprofen",
+      "Status":0
+    },{
+      "Name":"Medical Solution 1",
+      "Status":0
+    }
+  ]
+}
