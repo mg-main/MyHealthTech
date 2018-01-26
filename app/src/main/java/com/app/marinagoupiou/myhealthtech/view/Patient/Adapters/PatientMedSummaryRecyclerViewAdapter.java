@@ -112,7 +112,7 @@ public class PatientMedSummaryRecyclerViewAdapter extends RecyclerView.Adapter<P
 
     public void validateTimeslots() {
         showRepeatDialog();
-        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD HH:mm");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-DD HH:mm");
         Toast.makeText(context, "Available Date and Time selected:" + sdf.format(new Date(dateTimeData.getTimeMillis())), Toast.LENGTH_SHORT).show();
     }
 
